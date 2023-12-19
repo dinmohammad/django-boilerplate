@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} {% endblock %}</title>
     <!-- example link -->
-    <link rel="icon" href="{% static '/frontend-assets/css/style.css' %}"> 
+    <link rel="icon" href="{% static '/admin-assets/style.css' %}"> 
 
 </head>
 <body>
@@ -14,7 +14,7 @@
 
     {% include "./header.html" %}
 
-    <div class="main-wrapper">
+    <div class="main-dashboard-wrapper">
         {% block content %} {% endblock %}
     </div>
 

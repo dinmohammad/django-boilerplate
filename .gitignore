@@ -4,6 +4,8 @@
 *.zip
 *.xlsx
 __pycache__/
+web/__pycache__/
+resume/__pycache__/
 
 # Ignore Django migrations cache
 **/migrations/__pycache__/
