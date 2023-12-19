@@ -1,0 +1,10 @@
+*.pyc
+*.pdf
+*.exe
+*.zip
+*.xlsx
+__pycache__/
+
+# Ignore Django migrations cache
+**/migrations/__pycache__/
+**/database.py
